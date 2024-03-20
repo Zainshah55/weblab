@@ -373,6 +373,10 @@ overflow:auto;
 	.insights .finance svg circle{
 		stroke: var(--clr-success);
 	}
+	.progress{
+		background-color:transparent;
+		overflow:visible;
+	}
 	
 	.insights .progress .number{
 		position: absolute;
@@ -920,6 +924,7 @@ background-color:rgba(0,0,0,0.09);
 			   position:;
 			   width:100%;
 			   bottom: 0;
+			   
 			   
 			  }
 		   
