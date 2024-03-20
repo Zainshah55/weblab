@@ -292,6 +292,7 @@ overflow:auto;
 		padding: var(--card-padding);
 		border-radius: var(--card-border-radius);
 		margin-top: 1rem;
+		margin-left: 20px;
 		box-shadow: var(--box-shadow);
 		transition: all .3s ease;
 	}
