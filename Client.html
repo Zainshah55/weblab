@@ -221,10 +221,10 @@
 
         </div>
         <div class="xp-breadcrumbbar text-center">
-          <h4 class="page-title">Dashboard</h4>
+          <h4 class="page-title">Manage Your Clients</h4>
           <ol class="breadcrumb">
 
-            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            <li class="breadcrumb-item active" aria-current="page">Records</li>
           </ol>
         </div>
 
@@ -241,11 +241,11 @@
               <div class="table-title">
                 <div class="row">
                   <div class="col-sm-6 p-0 d-flex justify-content-lg-start justify-content-center">
-                    <h2 class="ml-lg-2">Manage Employees</h2>
+                    <h2 class="ml-lg-2">Manage Law Office Clients</h2>
                   </div>
                   <div class="col-sm-6 p-0 d-flex justify-content-lg-end justify-content-center">
                     <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal">
-                      <i class="material-icons">&#xE147;</i> <span>Add New Employee</span></a>
+                      <i class="material-icons">&#xE147;</i> <span>Add New Clients</span></a>
                     <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal">
                       <i class="material-icons">&#xE15C;</i> <span>Delete</span></a>
                   </div>
@@ -261,6 +261,7 @@
                       </span>
                     </th>
                     <th>Name</th>
+                    <th>Client Number</th>
                     <th>Email</th>
                     <th>Address</th>
                     <th>Phone</th>
@@ -276,6 +277,7 @@
                       </span>
                     </td>
                     <td>Thomas Hardy</td>
+                    <td>302</td>
                     <td>thomashardy@mail.com</td>
                     <td>89 Chiaroscuro Rd, Portland, USA</td>
                     <td>(171) 555-2222</td>
@@ -294,6 +296,7 @@
                       </span>
                     </td>
                     <td>Dominique Perrier</td>
+                    <td>303</td>
                     <td>dominiqueperrier@mail.com</td>
                     <td>Obere Str. 57, Berlin, Germany</td>
                     <td>(313) 555-5735</td>
@@ -312,6 +315,7 @@
                       </span>
                     </td>
                     <td>Maria Anders</td>
+                    <td>304</td>
                     <td>mariaanders@mail.com</td>
                     <td>25, rue Lauriston, Paris, France</td>
                     <td>(503) 555-9931</td>
@@ -330,6 +334,7 @@
                       </span>
                     </td>
                     <td>Fran Wilson</td>
+                    <td>305</td>
                     <td>franwilson@mail.com</td>
                     <td>C/ Araquil, 67, Madrid, Spain</td>
                     <td>(204) 619-5731</td>
@@ -348,6 +353,7 @@
                       </span>
                     </td>
                     <td>Martin Blank</td>
+                    <td>306</td>
                     <td>martinblank@mail.com</td>
                     <td>Via Monte Bianco 34, Turin, Italy</td>
                     <td>(480) 631-2097</td>
@@ -380,12 +386,16 @@
               <div class="modal-content">
                 <form>
                   <div class="modal-header">
-                    <h4 class="modal-title">Add Employee</h4>
+                    <h4 class="modal-title">Add Clients</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   </div>
                   <div class="modal-body">
                     <div class="form-group">
                       <label>Name</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Client Number</label>
                       <input type="text" class="form-control" required>
                     </div>
                     <div class="form-group">
@@ -423,10 +433,13 @@
                       <label>Client Name</label>
                       <input type="text" class="form-control" required>
                     </div>
+                    <!-- new addition -->
                     <div class="form-group">
-                      <label>Client Email</label>
-                      <input type="email" class="form-control" required>
+                      <label>Client Number</label>
+                      <input type="text" class="form-control" required>
                     </div>
+                    <!-- end new addition -->
+                    
                     <div class="form-group">
                       <label>Address</label>
                       <textarea class="form-control" required></textarea>
@@ -457,7 +470,7 @@
               <div class="modal-content">
                 <form>
                   <div class="modal-header">
-                    <h4 class="modal-title">Delete Employee</h4>
+                    <h4 class="modal-title">Delete Clients</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   </div>
                   <div class="modal-body">
