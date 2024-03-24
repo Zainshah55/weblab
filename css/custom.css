@@ -990,7 +990,9 @@ background-color:rgba(0,0,0,0.09);
 	
 	/* Card */
 .card {
+	text-align: center;
 	margin-bottom: 30px;
+	margin-right: 55px;
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
