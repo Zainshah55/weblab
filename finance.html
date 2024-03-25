@@ -309,7 +309,7 @@
                     <td>304</td>
                     <td>mariaanders@mail.com</td>
                     <td>25, rue Lauriston, Paris, France</td>
-                    <td>(503) 555-9931</td>
+                    <td>30/10/2024</td>
                     <!-- <td>
                       <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                         <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -328,7 +328,7 @@
                     <td>305</td>
                     <td>franwilson@mail.com</td>
                     <td>C/ Araquil, 67, Madrid, Spain</td>
-                    <td>(204) 619-5731</td>
+                    <td>30/10/2024</td>
                     <!-- <td>
                       <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                         <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -347,7 +347,7 @@
                     <td>306</td>
                     <td>martinblank@mail.com</td>
                     <td>Via Monte Bianco 34, Turin, Italy</td>
-                    <td>(480) 631-2097</td>
+                    <td>30/10/2024</td>
                     <!-- <td>
                       <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                         <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -481,3 +481,29 @@
         </div>
 
 
+<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      $(".xp-menubar").on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $('#content').toggleClass('active');
+      });
+
+      $(".xp-menubar,.body-overlay").on('click', function () {
+        $('#sidebar,.body-overlay').toggleClass('show-nav');
+      });
+
+    });
+
+  </script>
+    
+  </body>
+</html>
